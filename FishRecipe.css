@@ -197,8 +197,8 @@ footer {
 }
 
 
-
-@media (max-width: 750px ) {
+/*tablet*/
+@media (max-width: 992px ) {
     
     #index {
         display: flex;
@@ -238,6 +238,7 @@ footer {
     
 }
 
+/*phone*/
 @media (max-width: 550px ) {
     #index {
         display: flex;
