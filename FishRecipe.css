@@ -196,7 +196,9 @@ footer {
     margin: 10px;
 }
 
-
+html {
+    min-width: 550px;
+}
 
 @media (max-width: 750px ) {
     
