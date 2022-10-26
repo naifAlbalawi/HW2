@@ -198,7 +198,7 @@ footer {
 
 
 
-@media (max-width: 768px ) {
+@media (max-width: 750px ) {
     
     #index {
         display: flex;
@@ -238,12 +238,12 @@ footer {
     
 }
 
-@media (max-width: 600px ) {
+@media (max-width: 550px ) {
     #index {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        border: solid;
+     
         max-height: none;
         margin: auto;
     }
