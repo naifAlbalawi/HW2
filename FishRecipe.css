@@ -284,4 +284,7 @@ footer {
     .boraderright {
         border-right: hidden;
     }
+    h2 {
+        max-width: 60%;
+    }
 }
