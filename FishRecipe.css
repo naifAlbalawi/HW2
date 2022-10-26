@@ -196,9 +196,7 @@ footer {
     margin: 10px;
 }
 
-html {
-    min-width: 550px;
-}
+
 
 @media (max-width: 750px ) {
     
@@ -287,6 +285,7 @@ html {
         border-right: hidden;
     }
     h2 {
-        max-width: 60%;
+        width: 60%;
+
     }
 }
