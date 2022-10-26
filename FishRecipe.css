@@ -1,0 +1,287 @@
+h1 , h2,h4 {
+    color: #a4a400;
+    padding: 30px;
+    background-color: #F0F0F0;
+
+    border: 3px solid #73ad21;
+    text-align: center;
+    max-width: 600px ;
+    border-radius: 30px;
+    margin: 20px auto 20px auto;
+}
+.description {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+   
+}
+    
+#index {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+img {
+    max-width:300px;
+    border-radius: 60%;
+    margin: 5px;
+
+}
+.boraderright  {
+    border-right: #73ad21 2px solid ;
+}
+body {
+    background-image: url("silverware.jpg");
+    font-family: 'Segoe UI';
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    max-width: 350px ; 
+    font-size: medium;
+}
+
+h4 {
+    padding: 20px;
+    max-width: 350px ; 
+    font-size: medium;
+}
+
+hr {
+    max-width: 1024px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(78, 77, 77, 0.3);
+}
+
+#PostedComment > blockquote > .BlackQ {
+    background-color: #ffffa8;
+    text-align: left;
+    max-width: 375px;
+}
+
+a {
+    color: #a4a400;
+}
+ul,ol {
+    list-style-position: outside;
+    
+}
+ul > li  {
+    list-style-image: url("fish_icon_24.png");
+    text-align: left;
+}
+ol > li  {
+   
+    text-align: left;
+}
+
+.INGREDIENTS {
+columns: 3;
+max-width: 1100px;
+column-gap: 0px;
+margin: 10px auto;
+column-rule: #a4a400 solid;
+
+
+}
+.METHOD {
+    max-width: 54%;
+    margin: auto;
+  
+}
+
+.METHOD > ol{
+    columns: 3;
+    max-width: 100%;
+  
+    column-rule: #a4a400 solid;
+}
+
+
+.INGREDIENTS > .nugget > img {
+    max-width: 90% ; 
+
+}
+
+.UserComment {
+    max-width: 500px;
+    margin: auto;
+}
+
+fieldset {
+text-align: left;
+margin: 0;
+text-align: left;
+}
+#PostedComment    {
+    text-align: left;
+    margin: auto;
+    max-width: 375px;
+    
+}
+blockquote{
+    margin: 0;
+}
+
+
+    
+
+
+
+#commentForm {
+    max-width: 350px;
+    margin: auto;
+   
+
+}
+#commentForm > input[type = text] {
+    width: 95%;
+    border-top:hidden;
+    border-left:hidden;
+}
+#commentForm > textarea {
+    width: 95%;
+    border-top:hidden;
+    border-left:hidden;
+}
+
+
+.signUp {
+
+    max-width: 300px;
+    margin: auto;
+  
+}
+#SighUpForm {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+   
+   
+  
+}
+#SighUpForm >  .elementInSighUoForm  {
+    margin:  auto;
+  
+    
+}
+
+
+
+#Types {
+    max-width: 95%;
+    margin: 0;
+}
+#Types > fieldset {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Types > input[type=submit] {
+    display: flex;
+    justify-content: left;
+   
+}
+
+footer {
+    margin: 10px;
+}
+
+
+
+@media (max-width: 768px ) {
+    
+    #index {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        max-width: 95%;
+      
+        max-height: 450px;
+    }
+    #index img {
+        max-width: 350px;
+    }
+
+    .INGREDIENTS {
+        columns: 2;
+        max-width: 95%;
+    }
+    .INGREDIENTS > .nugget > img {
+        
+        max-width: 95%;
+     
+    }
+    .METHOD {
+        max-width: 800px;
+    }
+    .METHOD >ol{
+        columns: 2;
+        max-width: 95%;
+    }
+    hr {
+        margin: auto;
+        max-width: 95%;
+    }
+    
+   
+    
+}
+
+@media (max-width: 600px ) {
+    #index {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border: solid;
+        max-height: none;
+        margin: auto;
+    }
+    #index img {
+        
+        max-width: 90%;
+     
+    }
+    
+
+    .INGREDIENTS {
+        columns: 1;
+        max-width: 480px;     
+       
+    }
+
+
+    h1 {
+        margin: 15px;
+    }
+    .description  {
+        margin: 10px auto;
+        max-width: 95%;
+        font-size: 15px;
+    }
+    
+    .METHOD {
+        max-width: 600px;
+    }
+    .METHOD >ol{
+        columns: 1;
+        max-width: 600px;
+    }
+    hr {
+        margin: auto;
+        max-width: 95%;
+    }
+    .boraderright {
+        border-right: hidden;
+    }
+}
