@@ -284,7 +284,7 @@ footer {
     .boraderright {
         border-right: hidden;
     }
-    h2 {
+    h2,h4 {
         width: 60%;
 
     }
